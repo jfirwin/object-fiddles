@@ -20,8 +20,14 @@ alert(me.name);
 
 //Make a 'favoriteThings' object that contains the following keys: band, food, person, book, movie, holiday. Have the values to those keys be your favorite thing in that category.
 
-  //Code here
-
+var favoriteThings = {
+  band: 'Dave Matthews Band',
+  food: 'Pizza',
+  person: 'Uncle Jonathan',
+  book: 'A Short Stay in Hell',
+  movie: 'Another Earth',
+  holiday: 'Christmas'
+}
 
 
 
