@@ -127,9 +127,7 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 
 //Create an empty object called methodCollection.
 
-var methodCollection = {
-
-}
+var methodCollection = {};
 
 
 
@@ -140,11 +138,11 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
  */
 
 methodCollection.alertHello = function alertHello () {
-  alert('hello')
+  alert('hello');
 }
 
 methodCollection.logHello = function logHello () {
-  console.log('hello')
+  console.log('hello');
 }
 
 
@@ -169,7 +167,7 @@ methodCollection.logHello;
 
 function makePerson(name, birthday, ssn) {
   var newPerson = {
-  }
+  };
   newPerson.name = name;
   newPerson.birthday = birthday;
   newPerson.ssn = ssn;
@@ -186,4 +184,10 @@ function makePerson(name, birthday, ssn) {
 
 // Create a function called makeCard which takes in cardNumber, expirationDate, and securityCode to make a Credit Card object and returns that object so that whenever you invoke makeCard, you get a brand new credit card.
 
-  //Code Here
+function makeCard (cardNumber, expirationDate, securityCode) {
+  var creditCard = {};
+  creditCard.cardNumber = cardNumber;
+  creditCard.expirationDate = expirationDate;
+  creditCard.securityCode = securityCode;
+  return creditCard;
+}
