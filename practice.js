@@ -127,8 +127,9 @@ user2.email = 'tyler.mcginnis@devmounta.in';
 
 //Create an empty object called methodCollection.
 
-  //Code Here
+var methodCollection = {
 
+}
 
 
 
@@ -138,16 +139,20 @@ object. One called 'alertHello' which alerts 'hello' and another method called l
  which logs 'hello' to the console.
  */
 
-  //Code Here
+methodCollection.alertHello = function alertHello () {
+  alert('hello')
+}
 
-
+methodCollection.logHello = function logHello () {
+  console.log('hello')
+}
 
 
 
 //Now call your alertHello and logHello methods.
 
-  //Code Here
-
+methodCollection.alertHello;
+methodCollection.logHello;
 
 
 
